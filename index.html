@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <article class="container">
+        
+        <figure>
+            <img src="./img/image_form.svg" alt="">
+        </figure>
+        
+        <section class="form">
+            <form action="#">
+
+                <section class="formheader">
+                    <div class="register">
+                        <h1>Register</h1>
+                    </div>
+                    <div>
+                        <button class="login">Login</button>
+                    </div>
+                </section>
+                
+                <section class="personalinfo">
+                    <div class="input-box">
+                        <label for="firstname">First Name</label>
+                        <input type="text" name="firstname" id="firstname" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="surname">Surname</label>
+                        <input type="text" name="surname" id="surname" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="Phone" required> 
+                    </div>
+                    <div class="input-box">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="confirmpassword">Confirm your Password</label>
+                        <input type="password" name="confirmpassword" id="confirmpassword" required>
+                    </div>
+                </section>
+
+                <section class="gender">
+                    <div class="title">
+                        <p><strong>Gender</strong></p>
+                    </div>
+                    <div class="gendersinput">
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Female</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="other">
+                            <label for="other">Other</label>
+                        </div>
+                        <div class="gender-input notsay">
+                            <input type="radio" name="gender" id="notsay">
+                            <label for="notsay">N.A</label>
+                        </div>
+                    </div>
+                </section>
+            
+                <section class="submit">
+                    <button class="subbutton">Submit</button>
+                </section>
+                
+            </form>
+        </section> 
+        
+    </article>
+</body>
+</html>

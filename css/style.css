@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.form{
+    height: 80vh;
+    width: 50%;
+    background-color: #6c63ff;
+    padding: 45px;
+    border-radius: 0 20px 20px 0;
+}
+
+
+figure{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure img{
+    width: 500px;
+    padding: 1rem;
+}
+
+.formheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.login{
+    padding: 10px 18px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+.login:hover{
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.formheader{
+    margin-left: 18px;
+}
+
+.register h1{
+    font-size: 40px;
+    color: white;
+
+}
+
+.input-box label{
+    color: white;
+}
+
+p, .gender-input{
+    color: white;
+}
+
+.gender{
+    margin: 0 18px 0 18px;
+}
+
+.gender p{
+    padding-bottom: 10px;
+}
+
+.gender-input{
+    display: flex;
+    flex-direction: row;
+}
+
+.personalinfo{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+
+}
+
+.input-box input{
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.submit{
+    padding: 0 0 0 15px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-top: 50px;
+}
+
+.submit button{
+    padding: 10px 220px;
+    color: #6c63ff;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    font-weight: 900;
+    border-radius: 10px;
+    
+}
+
+.submit button:hover{
+    padding: 10px 222px;
+    transition: 0.5s;
+}
+
+.gendersinput{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
